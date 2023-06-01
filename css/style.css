@@ -51,5 +51,17 @@ main{
 
 
 footer{
+    padding: 10px;
     background-color: #222222;
 }
+
+.mic-settings{
+    display: flex;
+
+}
+
+.mic-icon{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+

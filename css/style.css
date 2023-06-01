@@ -28,10 +28,13 @@ header{
 }
 
 main{
-    margin-top: 50px;
+    margin-top: 1rem;
     display: flex;
     flex-wrap: wrap;
+    flex-grow: 1;
+    overflow: auto;
     gap: 10px;
+   margin-bottom: 50px;
 }
 
 .pic{
@@ -51,17 +54,46 @@ main{
 
 
 footer{
-    padding: 10px;
-    background-color: #222222;
-}
-
-.mic-settings{
     display: flex;
-
+    justify-content: space-between;
+    background-color: #222222;
+    padding: 10px;
 }
 
-.mic-icon{
+.mic-camera{
+    display: flex;
+}
+
+.mic{
+    padding-right: 20px;
+}
+
+.settings{
+    display: flex;
+    text-align: center;
+}
+
+.icon{
     font-size: 30px;
     padding-bottom: 10px;
+    padding: 10px;
+
+}
+
+.arrow{
+    align-self: center;
+    padding: 1rem;
+
+}
+
+.icon.active{
+    color: green;
+}
+
+
+.end-meeting{
+    height: 100%;
+    color: red;
+    background-color:#4A4A4A ;
 }
 

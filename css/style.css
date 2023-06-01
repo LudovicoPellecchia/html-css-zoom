@@ -27,20 +27,24 @@ header{
     border-radius: 4px;
 }
 
+
+
 main{
+    padding-left: 60px;
     margin-top: 1rem;
     display: flex;
     flex-wrap: wrap;
     flex-grow: 1;
     overflow: auto;
     gap: 10px;
-   margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .pic{
     background-image: url("https://picsum.photos/280/180");
+    background-size: cover;
     position: relative;
-    width: 280px;
+    width: 290px;
     height: 180px;
 }
 
@@ -56,21 +60,26 @@ main{
 footer{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #222222;
-    padding: 10px;
 }
 
 .mic-camera{
     display: flex;
+    padding: 1rem;
 }
 
-.mic{
+/* .mic{
     padding-right: 20px;
-}
+} */
 
 .settings{
     display: flex;
     text-align: center;
+}
+
+.setting-space{
+    padding-right: 5px;
 }
 
 .icon{
@@ -81,6 +90,7 @@ footer{
 }
 
 .arrow{
+    font-size: 0.7rem;
     align-self: center;
     padding: 1rem;
 
@@ -92,8 +102,12 @@ footer{
 
 
 .end-meeting{
-    height: 100%;
+    padding: 20px;
     color: red;
     background-color:#4A4A4A ;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
